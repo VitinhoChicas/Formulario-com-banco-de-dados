@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="D1">
+    <form action="processar-dados.php" method="post">
+
+        <h1 >FORMULARIO</h1>
+
+        <fieldset class="nome">
+        <label for="nome" class="labelNome">Nome</label>
+        <input type="text" name="nome" id="placeholder-text" placeholder="Informe seu Nome" autocomplete="off" class="input1" required>
+        </fieldset>
+
+        <fieldset class="email" class="email">
+        <label for="email" class="labelEmail">E-MAIL</label>
+        <input type="email" name="email" autocomplete="off" placeholder="MarquinBorracheiro@gmsil.com" class="input2" id="placeholder-text1" required>
+        </fieldset>
+
+        <fieldset class="mensagem">
+        <label for="mensagem" class="labelMensagem">Escreva uma mensagem</label>
+        <textarea name="mensagem" autocomplete="off" placeholder="Digite sua mensagem" cols="2"  required> </textarea>
+        </fieldset>
+
+        <fieldset class="botao">
+        <button type="submit" class="b1">ENVIAR</button>
+        <button type="reset" class="b2">APAGAR</button>
+        </fieldset>
+    </form>
+</div>
+
+
+</body>
+</html>

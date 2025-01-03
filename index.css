@@ -1,0 +1,152 @@
+/*hover : passar o mouse encima */
+/*focus : selecionado ate não selecionar mais */
+/*active : so quando clicla */
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    }
+    
+    .D1{
+    width:450px;
+    height:400px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 3px -3px 42px 16px rgba(58,1,212,0.84);
+    -webkit-box-shadow: 3px -3px 42px 16px rgba(58,1,212,0.84);
+    -moz-box-shadow: 3px -3px 42px 16px rgba(58,1,212,0.84);
+    }
+
+    h1{
+        color:rgba(90,40,225,1);
+        text-align: center;
+       
+    }
+
+    .nome{  
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        border:none;
+    }
+
+    .labelNome{
+        color:rgba(90,40,225,1);
+    }
+
+    #placeholder-text::placeholder{
+        color:white;
+        opacity: 0.5;
+        text-align: center;
+    }
+    
+   .input1{ 
+     caret-color:rgba(90,40,225,1);
+      background-color: black;
+      border-bottom: solid 2px rgba(90,40,225,1);
+      border-top: solid 2px black;
+      border-left: solid 2px black ;
+      border-right: solid 2px black ;
+      color: white;
+      transition: green;
+    }
+
+    .email{
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        border:none;
+    }
+
+    .labelEmail{
+        color:rgba(90,40,225,1);
+    }
+
+    #placeholder-text1::placeholder {
+        color:white;
+        opacity: 0.5;
+        text-align: center;
+    }
+
+    .input2{ 
+        caret-color:rgba(90,40,225,1);
+        background-color: black;
+        border-bottom: solid 2px rgba(90,40,225,1);
+        border-top: solid 2px black;
+        border-left: solid 2px black ;
+        border-right: solid 2px black ;
+        color: white;
+      }
+
+      textarea{
+       background-color: black;
+       border:double 2px rgba(90,40,225,1);
+       color: white;
+       width: 100%;
+       height: 150px;
+       padding: 12px 20px;
+       box-sizing: border-box;
+       border-radius: 4px;
+       resize: none;
+       caret-color:rgba(90,40,225,1);
+      }
+
+      textarea:focus{
+        border:double 2px rgba(90,40,225,1);
+      }
+
+      .mensagem{
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        border:none;
+      }
+
+      .labelMensagem{
+        color:rgba(90,40,225,1);
+      }
+
+      .botao{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+         height:70px;
+         border:none;
+      }
+
+      .b1{
+        margin-right: 50px;
+      }
+
+      button{
+        background-color: black;
+        border:solid 2px rgba(90,40,225,1);
+        color:rgba(90,40,225,1);
+      }
+
+      button:hover{
+         color: black;
+         background-color:rgba(90,40,225,1);
+         border:solid rgb(183, 3, 255);
+      }
+
+      .b1:active{
+        background-color: rgb(10, 197, 10);
+        color:black;
+        border:solid 2px rgba(90,40,225,1);
+      }
+
+      .b2:active{
+        background-color: red;
+        color:black;
+        border:solid 2px rgba(90,40,225,1);
+      }
